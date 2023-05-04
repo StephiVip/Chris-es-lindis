@@ -30,10 +30,12 @@ public class Main {
 
         static void mensaje() {
 
-        JOptionPane.showMessageDialog(null,"Si elegiste el 3 sos Boba");
+        JOptionPane.showMessageDialog(null,
+                "Si elegiste el 3 nuevamente sos Recontra Boba");
         }
     static void mensaje2() {
 
-        JOptionPane.showMessageDialog(null,"Hola Señora cara de papa");
+        JOptionPane.showMessageDialog(null,
+                "Te ingreso un Virus tu PC va a Explotar","VIRUS",JOptionPane.ERROR_MESSAGE);
     }
     }
