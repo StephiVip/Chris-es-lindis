@@ -7,15 +7,33 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-    String saludo;
-    saludo="";
+    String saludoCadena;
+    int saludo;
+    int op= 3;
 
-        JOptionPane.showInputDialog("Hola Chris");
+        saludoCadena = JOptionPane.showInputDialog("cual es tu numero favorito");
+        saludo = Integer.parseInt(saludoCadena);
+
         System.out.println();
+        if (op == saludo ) {
+            mensaje();
+        }else {
+            mensaje2();
+        }
 
 
 
 
         }
+
+
+
+        static void mensaje() {
+
+        JOptionPane.showMessageDialog(null,"Si elegiste el 3 sos Boba");
+        }
+    static void mensaje2() {
+
+        JOptionPane.showMessageDialog(null,"Hola Señora cara de papa");
     }
-}
+    }
